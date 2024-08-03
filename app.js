@@ -213,8 +213,14 @@ document.querySelector('h1').innerHTML += "ASAP Frontend";
 document.querySelector('h1').style.fontSize = '20px';
 
 
-function changeBtnToGreen() {
-  document.querySelector('button').style.backgroundColor = 'green'
-}
+// function changeBtnToGreen() {
+//   document.querySelector('button').style.backgroundColor = 'green'
+// }
 
 //change class names using javascript
+
+function toggleSidebar() {
+  document.querySelector("body").classList.toggle('open');
+
+}
+
